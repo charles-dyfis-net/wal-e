@@ -26,7 +26,7 @@ Installation
 If no up-to-date packages are available to you via a package manager,
 this command can work on most operating systems::
 
-  sudo python3 -m pip install wal-e[aws,azure,google,swift]
+  sudo python3 -m pip install 'wal-e[aws,azure,google,swift]'
 
 You can omit storage services you do not wish to use from the above
 list.
